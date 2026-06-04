@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Librarian Dashboard</title>
+    <link rel="stylesheet" href="/static/dashboard.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+    <body>
+        <div id="main">
+            <div id="dashboard">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Librarian's Dashboard</a>
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="/librarian_dash">Home</a>
+                        <a class="nav-link active" aria-current="page" href="/librarian_dash/requests">Requests</a>
+                        <a class="nav-link active" aria-current="page" href="/stats">Stats</a>
+                        <a class="nav-link active" aria-current="page" href="/">Logout</a>
+                        <span>
+                        <a class="nav-link active" aria-current="page" href="#">Admin</a>
+                        </span>
+                    </div>
+                    </div>
+                    </div>
+                </nav>
+                <div>
+                    <h4 id="headings"> Books Status </h4>
+                    <div style="margin-left: 200px;">
+                    <img src="/static/status.png" alt="status" width="70%"></img>
+                    </div>
+                    <br>
+                    <h4 id="headings"> Section-Wise Book Distribution</h4>
+                    <div style="margin-left: 200px;">
+                        <img src="/static/section_books.png" alt="section_books" width="70%"></img>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</head>
+</html>

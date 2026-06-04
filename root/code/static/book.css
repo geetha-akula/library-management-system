@@ -1,0 +1,17 @@
+#book{
+    overflow-y: auto
+}
+
+
+#title{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#content{
+    margin-left: 300px;
+    margin-right: 250px;
+    display: block;
+    margin-top: 20px;
+    padding: 20px;
+}

@@ -1,0 +1,18 @@
+#main{
+    background-color:rgba(137, 43, 226, 0.37);
+    border: 2px solid black;
+    width: 80%;
+    margin: auto;
+    height: 550px;
+    padding: 10px;
+}
+
+#form-body{
+    background-color: ghostwhite;
+    border: 1px solid black;
+    width: 370px;
+    margin: auto;
+    margin-top: 100px;
+    height: 350px;
+    padding: 20px;
+}

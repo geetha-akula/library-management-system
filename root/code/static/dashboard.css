@@ -1,0 +1,15 @@
+#main{
+    background-color:rgba(137, 43, 226, 0.37);
+    border: 2px solid black;
+    width: 80%;
+    margin: auto;
+    height: 550px;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+
+#headings{
+    padding: 7px;
+    margin: 5px;
+}
